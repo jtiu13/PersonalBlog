@@ -1,0 +1,403 @@
+/* Global style formatting */
+* {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+.website-name {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  float: left;
+  margin-left: 30px;
+}
+
+.container {
+  background-color: #504e4e;
+  width: 100%;
+  height: 1600px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+strong {
+  font-size: 60px;
+}
+
+h1 {
+  padding-bottom: 15px;
+}
+
+.life-story {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* navigation - style - formatting - */
+
+.navbar {
+  background-color: gold;
+  width: 100%;
+  height: 70px;
+}
+
+.nav-list {
+  float: right;
+  margin-top: 30px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-right: 30px;
+  
+}
+
+.navbar a:hover {
+  color: #000000;
+  transition: 0.5s ease;
+}
+
+
+/* about - me - style - formatting - */
+
+section {
+  display: inline-block;
+}
+
+.section-about {
+  color: #ffffff;
+}
+
+.about-me-bg {
+  margin-top: 50px;
+  margin-right: 80px;
+  opacity: 0.7;
+  width: 500px;
+  height: auto;
+  float: right;
+  border-radius: 50%;
+}
+
+.about-me {
+  color: #ffffff;
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+/* date- of - birth - style - formating - */
+
+.date-of-birth {
+  color: #ffffff;
+  width: 20%;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-left: 20px;
+  float: left;
+}
+
+.date-of-birth img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* my - school - style - formatting */
+
+.my-school {
+  color: #ffffff;
+  width: 20%;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.my-school img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* my - hobbies - style - formatting */
+
+.my-hobbies {
+  color: #ffffff;
+  width: 20%;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-right: 30px;
+  float: right;
+}
+
+.my-hobbies img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* my - present - style - formatting */
+
+.my-present {
+  color: #ffffff;
+  width: 20%;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-right: 30px;
+  float: right;
+}
+
+.my-present img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* gallery - 1 - style - formatting */
+
+
+.gallery-1 {
+  background-color: #000000;
+  width: 85.2%;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.gallery-1 h1 {
+  color: #ffffff;
+}
+
+/* picture - 1 - style - formatting */
+
+.picture1 p {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  margin-left: 150px;
+  padding-bottom: 40px;
+}
+
+.picture1 img {
+  width: 300px;
+  padding-left: 100px;
+}
+
+.picture1 span {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+/* picture - 2 - style - formatting */
+
+.picture2 p {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.picture2 img {
+  width: 350px;
+  float: left;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+.picture2 span {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+}
+
+/* picture - 3 - style - formatting */
+
+.picture3 p {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  margin-left: 150px;
+  padding-bottom: 40px;
+}
+
+.picture3 img {
+  width: 350px;
+  padding-left: 80px;
+  margin-top: 30px;
+}
+
+.picture3 span {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+/* picture - 4 - style - formatting */
+
+.picture4 p {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  margin-left: 90px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.picture4 img {
+  width: 350px;
+  float: left;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.picture4 span {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+}
+
+/* topic - style - formatting */
+
+.topic-area {
+  background-color: #504e4e;
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.topic-area h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.my-topic p {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  margin-left: 120px;
+  padding-bottom: 40px;
+}
+
+.my-topic span {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+/* topic - gallery - style - formatting */
+
+.gallery1 {
+  width: 50%;
+  float: right;
+  padding-right: 50px;
+}
+
+/* footer - style - formatting - */
+
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 150px;
+  opacity: 0.9;
+  float: left;
+}
+
+footer p {
+  width: 300px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.author-name {
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: 200;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.social-media {
+  margin-top: 50px;
+  float: left;
+}
+
+span img {
+  width: 40px;
+  margin-right: -50px;
+  margin-left: 70px;
+}
+
+h5 {
+  margin-left: 70px;
+  padding-bottom: 10px;
+}
+.footer-nav {
+  margin-top: 10px;
+  float: left;
+  padding-left: 80px;
+  margin-left: 40px
+}
+
+.footer-nav h5 {
+  margin-left: 1px;
+}
+
+.footer-nav li a {
+  font-size: 12px;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.navlist-footer ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.footer-nav a:hover {
+  color: gold;
+  transition: 0.5s ease;
+}
+
+.school-logo img {
+  width: 100px;
+  float: right;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
